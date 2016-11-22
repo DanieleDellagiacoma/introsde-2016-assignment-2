@@ -20,11 +20,24 @@ Each of them send the requests specified in the delivery and print the responses
 Although the http request do not fail, it is possible that the body response is empty (i.e. not exist a person with such id in the database). In this case the response status of the request will be ERROR.
 
 ## SERVER
+The project seen during the laboratory session 7 has been used as starting point for the implementation of server.
 
+The server includes the **App** and **MyApplicationConfig** classes in order to load resource classes and additional features provided by Jersey.
+
+The **LifeCoachDao** class is used to connect the project model to the database, whereas **HealthMisureHistory**, **HealthProfile** **MeasureDefinition** and **Person** classes are the entities.
+
+Finally, **MeasureResource**, **PersonCorrelationResource** and **PersonResource** classes expose the services through RESTful API.
+
+Moreover, the **lifecoach.sqlite** database has been modified to fit the requests of the assignment.
 
 ## DEPLOYMENT
 
-In order to test the client copy the repository
+The server WAR file was deployed to Heroku including the database in this way
+```sh
+heroku war:deploy IntroSdeAss2.war --includes lifecoach.sqlite --app dellagiacomaintrosde2
+```
+
+On the other hand, the client can be tested copying the repository in local
 ```sh
 git clone https://github.com/DanieleDellagiacoma/introsde-2016-assignment-2
 ```
