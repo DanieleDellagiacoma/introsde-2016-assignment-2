@@ -2,8 +2,8 @@
 
 I worked in pair with: **Davide Lissoni**
 
-The URL of my server is: **https://introsdeass2dellagiacoma.herokuapp.com**
+The URL of my server is: **https://dellagiacomaintrosde2.herokuapp.com/sdelab**
 
-Server URL of Davide Lissoni is: **https://davidelissoniassignment2.herokuapp.com**
+Server URL of Davide Lissoni is: **https://lissonidavideapp.herokuapp.com/assignment2**
 
 Link to Davide Lissoni Github repository: 
