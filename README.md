@@ -1,4 +1,6 @@
-# introsde-2016-assignment-2
+# Daniele Dellagiacoma 
+
+## introsde-2016-assignment-2
 
 I worked in pair with: **Davide Lissoni**
 
